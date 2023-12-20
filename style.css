@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+<body>
+{
+  height: 100%;
+  width: 100%;
+}
+div {background-color: white;}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+}
+
+.carousel {
+    margin-top: 50px;
+    /* Adjusted to center the carousel */
+}
+
+.carousel-inner {
+    text-align: center;
+    /* Centering images in the carousel */
+}
+
+.carousel-item img {
+    max-height: 400px;
+    /* Adjust the height of the carousel images as needed */
+    width: auto;
+    /* Maintain the aspect ratio */
+    margin: auto;
+    /* Center the images horizontally */
+}
+
+.additional-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.additional-images img {
+    max-width: 200px;
+    /* Set the width of additional images */
+    height: auto;
+    /* Maintain the aspect ratio */
+
+}
+</style>
+</head>
+</body>
+</html>
